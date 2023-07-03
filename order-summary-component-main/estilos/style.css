@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --cor1:hsl(225, 100%, 94%);
+    --cor2:hsl(245, 75%, 52%);
+    --cor3: hsl(225, 100%, 98%);
+    --cor4: hsl(224, 23%, 55%);
+    --cor5: hsl(223, 47%, 23%);
+
+    --font-padrao: font-family: 'Red Hat Display', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background: var(--cor1);
+    
+}
+main {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+section.conteiner {
+    height: 81vh;
+    width: 350px;
+    border-radius: 20px;
+    background-color: var(--cor3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+} 
+div#main {
+
+}
+div.img {
+    background-image: url(../images/illustration-hero.svg);
+    display: block;
+    width: 100%;
+    height: 26.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px;
+    
+}   
+.escrita-principal {
+    padding: 0px 40px;
+}  
+.escrita-principal h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.escrita-principal p {
+    text-align: justify;
+}
+.botao {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
