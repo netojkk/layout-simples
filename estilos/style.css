@@ -95,11 +95,6 @@ div.img-sound {
     font-size: 16px;
     
 }
-.botao {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 40px;
-}
 .button-end {
     border: none;
     padding: 16px 0px;
@@ -114,7 +109,7 @@ div.img-sound {
     background-color: var(--cor2);
     color: #fff;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.479);
-    margin-top: 2em;
+    margin-top: 1.8em;
 }
 #pay-button:hover {
     background-color: hsl(245, 81%, 37%);
