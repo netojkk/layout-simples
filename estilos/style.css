@@ -19,7 +19,7 @@
 }
 body {
     background: var(--cor1);
-    
+    font-family: 'Red Hat Display', sans-serif;
 }
 main {
     font-family: 'Red Hat Display', sans-serif;
@@ -88,7 +88,7 @@ div.img-sound {
 .info-card {
     margin: 0px 40px 0px 10px;
 }
-.info-card p {
+.info-card p, a {
     text-align: center;
     font-size: .87em;
 }
@@ -96,8 +96,6 @@ div.img-sound {
     font-weight: 900;
     font-size: 16px;
     
-    
-
 }
 .botao {
     display: flex;
