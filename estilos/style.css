@@ -35,7 +35,7 @@ p {
     color: var(--cor4);
 }
 section.conteiner {
-    height: 87vh;
+    height: 84vh;
     width: 350px;
     border-radius: 20px;
     background-color: #fff;
@@ -114,7 +114,7 @@ div.img-sound {
     background-color: var(--cor2);
     color: #fff;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.479);
-    margin-top: 1.3em;
+    margin-top: 1.5em;
 }
 #cancel-button {
     margin-top: .3em;
