@@ -28,11 +28,17 @@ main {
     justify-content: center;
     
 }
+h1, h2 {
+    color: var(--cor5);
+}
+p {
+    color: var(--cor4);
+}
 section.conteiner {
-    height: 81vh;
+    height: 82vh;
     width: 350px;
     border-radius: 20px;
-    background-color: var(--cor3);
+    background-color: #fff;
 
     display: flex;
     flex-direction: column;
@@ -59,9 +65,39 @@ div.img {
 .escrita-principal h1 {
     text-align: center;
     padding-bottom: 10px;
+    font-weight: 900;
 }
 .escrita-principal p {
     text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+}
+.escrita-plano {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: hsl(225, 100%, 98%);
+    
+}
+div.img-sound {
+    background: url(../images/icon-music.svg);
+    height: 48px;
+    width: 48px;
+}
+.info-card {
+    margin: 0px 40px 0px 10px;
+}
+.info-card p {
+    text-align: center;
+    font-size: .87em;
+}
+.escrita-plano h2 {
+    font-weight: 900;
+    font-size: 16px;
+    
+    
+
 }
 .botao {
     display: flex;
