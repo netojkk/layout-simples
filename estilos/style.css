@@ -133,5 +133,10 @@ div.img-sound {
         background-image: url(../images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
     }
-    
+    section.conteiner {
+        height: 85vh; 
+    }
+    #pay-button {
+        margin-top: 2.2em;
+    }
 }
