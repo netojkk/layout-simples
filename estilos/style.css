@@ -63,10 +63,10 @@ div.img {
     font-weight: 900;
 }
 .escrita-principal p {
-    text-align: justify;
+    text-align: center;
     margin-top: 1em;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5em;
     font-weight: 500;
 }
 .escrita-plano {
@@ -114,10 +114,19 @@ div.img-sound {
     background-color: var(--cor2);
     color: #fff;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.479);
-    margin-top: 1.5em;
+    margin-top: 2em;
+}
+#pay-button:hover {
+    background-color: hsl(245, 81%, 37%);
+    cursor: pointer;
+    
 }
 #cancel-button {
     margin-top: .3em;
     background-color: transparent;
     color: var(--cor4);
+    padding: 10px;
+}
+#cancel-button:hover {
+    color: hsl(226, 15%, 23%);
 }
