@@ -72,7 +72,7 @@ div.img {
 .escrita-plano {
     display: flex;
     align-items: center;
-    margin: 1.3em 20px 0px 20px;
+    margin: 1.5em 20px 0px 20px;
     border-radius: 20px;
     padding: 16px 30px;
     background-color: hsl(225, 100%, 98%);
@@ -109,7 +109,7 @@ div.img-sound {
     background-color: var(--cor2);
     color: #fff;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.479);
-    margin-top: 1.8em;
+    margin-top: 2.2em;
 }
 #pay-button:hover {
     background-color: hsl(245, 81%, 37%);
@@ -120,6 +120,7 @@ div.img-sound {
     margin-top: .3em;
     background-color: transparent;
     color: var(--cor4);
+    margin-bottom: 10px;
     padding: 10px;
 }
 #cancel-button:hover {
