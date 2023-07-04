@@ -35,7 +35,7 @@ p {
     color: var(--cor4);
 }
 section.conteiner {
-    height: 84vh;
+    height: 83vh;
     width: 350px;
     border-radius: 20px;
     background-color: #fff;
@@ -74,7 +74,7 @@ div.img {
     align-items: center;
     margin: 1.3em 20px 0px 20px;
     border-radius: 20px;
-    padding: 15px 30px;
+    padding: 16px 30px;
     background-color: hsl(225, 100%, 98%);
     
 }
