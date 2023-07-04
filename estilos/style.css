@@ -23,7 +23,7 @@ body {
 }
 main {
     font-family: 'Red Hat Display', sans-serif;
-    margin: 50px 0px;
+    margin: 42px 0px;
     display: flex;
     justify-content: center;
     
@@ -35,7 +35,7 @@ p {
     color: var(--cor4);
 }
 section.conteiner {
-    height: 82vh;
+    height: 87vh;
     width: 350px;
     border-radius: 20px;
     background-color: #fff;
@@ -56,6 +56,7 @@ div.img {
     height: 26.5vh;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 20px 20px 0px 0px;
     
 }   
@@ -64,6 +65,7 @@ div.img {
 }  
 .escrita-principal h1 {
     text-align: center;
+    margin-top: -25px;
     padding-bottom: 10px;
     font-weight: 900;
 }
@@ -76,7 +78,8 @@ div.img {
     display: flex;
     align-items: center;
     border-radius: 20px;
-    padding: 15px;
+    margin-top: -15px;
+    padding: 15px 30px;
     background-color: hsl(225, 100%, 98%);
     
 }
@@ -86,7 +89,7 @@ div.img-sound {
     width: 48px;
 }
 .info-card {
-    margin: 0px 40px 0px 10px;
+    margin: 0px 30px 0px 15px;
 }
 .info-card p, a {
     text-align: center;
@@ -101,4 +104,20 @@ div.img-sound {
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
+}
+.button-end {
+    border: none;
+    padding: 16px 0px;
+    width: 280px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#pay-button {
+    background-color: var(--cor2);
+    font-weight: 700;
+    color: #fff;
+}
+#cancel-button {
+    margin-top: 1em;
+    background-color: transparent;
 }
