@@ -104,8 +104,11 @@ div.img-sound {
     border-radius: 10px;
     font-size: 1em;
     font-weight: 700;
-    display: block;
+    
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 #pay-button {
     background-color: var(--cor2);
